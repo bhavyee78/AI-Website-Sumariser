@@ -1,2 +1,17 @@
-# AI-Website-Sumariser
-A simple web app that summarizes any public website using OpenAI's GPT-4o. Built with Flask and BeautifulSoup, it scrapes webpage content and returns a concise AI-generated summary, showcasing GenAI in a clean, easy-to-use interface.          Ask ChatGPT
+# Website Summarizer
+
+A simple web app that summarizes any website using OpenAI's GPT model. Paste a URL, and get a concise summary.
+
+## Tech Stack
+- Python (Flask)
+- OpenAI API
+- BeautifulSoup
+- HTML/CSS (Basic frontend)
+
+## Run Locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/website-summarizer.git
+cd website-summarizer
+pip install -r requirements.txt
+python app.py
